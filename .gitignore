@@ -243,3 +243,15 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/testApp
+/test
+/App1
+/ClassLibrary1
+/ConsoleApplication1
+/RaysHotDogs
+/RaysHotDogs.cor
+/Ride Share
+/RideShare1
+/PickMe
+/PickMe.Core
+/PickMe1
