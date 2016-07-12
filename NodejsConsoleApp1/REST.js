@@ -18,12 +18,13 @@ REST_ROUTER.prototype.handleRoutes = function (router, connection, md5) {
     
     
     
-    /** get driver list */
+    /** get driver list *
     router.get("/drivers", function (req, res) {
         var table = ["driver"];
         getAllTableData(req, res, table);
          
     });
+     * /
     
     /** get vehicle list */
     router.get("/vehicles", function (req, res) {

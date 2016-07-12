@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ride Share", "Ride Share\Ride Share.csproj", "{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}"
-EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "RideShareService", "NodejsConsoleApp1\RideShareService.njsproj", "{A2BC3205-C088-42B9-B404-CB38FAAE2BD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{1BBE0EE2-976D-4AC5-A31E-9E95CB85C096}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.cor", "RaysHotDogs.cor\RaysHotDogs.cor.csproj", "{F26302B8-B815-4AB1-920B-CCF4B3998B05}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs", "RaysHotDogs\RaysHotDogs.csproj", "{EE0E7093-9F3B-4E95-BC06-F2F8693B283B}"
 EndProject
@@ -25,12 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D8458D2-F9A0-48AB-B040-BE14C7ACC68B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{A2BC3205-C088-42B9-B404-CB38FAAE2BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A2BC3205-C088-42B9-B404-CB38FAAE2BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2BC3205-C088-42B9-B404-CB38FAAE2BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,10 +29,6 @@ Global
 		{1BBE0EE2-976D-4AC5-A31E-9E95CB85C096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BBE0EE2-976D-4AC5-A31E-9E95CB85C096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BBE0EE2-976D-4AC5-A31E-9E95CB85C096}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F26302B8-B815-4AB1-920B-CCF4B3998B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F26302B8-B815-4AB1-920B-CCF4B3998B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F26302B8-B815-4AB1-920B-CCF4B3998B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F26302B8-B815-4AB1-920B-CCF4B3998B05}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EE0E7093-9F3B-4E95-BC06-F2F8693B283B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE0E7093-9F3B-4E95-BC06-F2F8693B283B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE0E7093-9F3B-4E95-BC06-F2F8693B283B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
