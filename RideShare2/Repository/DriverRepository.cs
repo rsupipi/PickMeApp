@@ -14,5 +14,9 @@ namespace RideShare2.Repository
 {
     class DriverRepository
     {
+
+        /** Log in driver*/
+
+        /** Register Driver*/
     }
 }

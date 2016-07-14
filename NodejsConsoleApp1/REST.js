@@ -17,21 +17,7 @@ REST_ROUTER.prototype.handleRoutes = function (router, connection, md5) {
     // ============ getAllTableData =======================
     
     
-    
-    /** get driver list *
-    router.get("/drivers", function (req, res) {
-        var table = ["driver"];
-        getAllTableData(req, res, table);
-         
-    });
-     * /
-    
-    /** get vehicle list */
-    router.get("/vehicles", function (req, res) {
-        var table = ["vehicle"];
-        getAllTableData(req, res, table);
-         
-    });
+   
     
     /** get booking list */
     router.get("/bookings", function (req, res) {
@@ -57,33 +43,7 @@ REST_ROUTER.prototype.handleRoutes = function (router, connection, md5) {
     
     // ============ get Table record =======================
     
-    /** get customer */
    
-    /** get driver */
-    
-    router.get("/drivers/:NIC", function (req, res) {
-        var table = ["driver", "NIC", req.params.NIC];
-        getRowData(req, res, table);
-         
-    });
-    
-    /** get vehicle */
-    
-    router.get("/vehicles/:vhecle_number", function (req, res) {
-        var table = ["vehicle", "vhecle_number", req.params.vhecle_number];
-        getRowData(req, res, table);
-         
-    });
-    
-    /** get booking */
-    
-    router.get("/bookingrs/:booking_id", function (req, res) {
-        var table = ["booking", "booking_id", req.params.booking_id];
-        getRowData(req, res, table);
-         
-    });
-    
-    
     // get data form the mysql table
     function getRowData(req, res, table) {
         
