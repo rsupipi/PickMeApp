@@ -14,9 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:paddingBottom="30dp">
         <ImageButton
-            android:src="@drawable/driverlog_icon"
+            android:src="@drawable/userlog_icon"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/imageButton1"
@@ -30,16 +31,16 @@
             android:src="@drawable/driverlogactive_icon"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/imageButton2"
+            android:id="@+id/imageButtonDriverLogin"
             android:background="@null" />
     </LinearLayout>
-    <EditText
-        android:inputType="phone"
+    <EditText        
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTextCustomerUserName"
         android:hint="Phone Number" />
     <EditText
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTexTCustomerPw"

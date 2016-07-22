@@ -14,7 +14,7 @@ using RideShare2.Model;
 
 namespace RideShare2
 {
-    [Activity(Label = "Login", Icon = "@drawable/icon")]
+    [Activity(Label = "Rider's Login", Icon = "@drawable/icon")]
     public class CustomerLoginActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -29,6 +29,7 @@ namespace RideShare2
 
             Button buttonFortPw = FindViewById<Button>(Resource.Id.buttonCustomerFP);
             Button buttonRegister = FindViewById<Button>(Resource.Id.buttonCustomerRegister);
+
             
 
             /** Process Customer login goto customer home page*/
@@ -71,6 +72,15 @@ namespace RideShare2
             buttonRegister.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(RegisterCustomerActivity));
+                StartActivity(intent);
+            };
+
+
+            /** Navigate to Driver loging page */
+            ImageButton driverLoginButton = FindViewById<ImageButton>(Resource.Id.imageButtonDriverLogin);
+            driverLoginButton.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(DriverLoginActivity));
                 StartActivity(intent);
             };
 

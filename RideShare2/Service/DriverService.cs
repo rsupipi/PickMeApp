@@ -14,5 +14,6 @@ namespace RideShare2.Service
 {
     interface DriverService
     {
+
     }
 }

@@ -19,8 +19,8 @@ namespace RideShare2
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            ImageButton callHistoryButton = FindViewById<ImageButton>(Resource.Id.imageButtonHome);
-            callHistoryButton.Click += (sender, e) =>
+            ImageButton homepageButton = FindViewById<ImageButton>(Resource.Id.imageButtonHome);
+            homepageButton.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(CustomerLoginActivity));               
                 StartActivity(intent);

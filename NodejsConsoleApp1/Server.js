@@ -2,7 +2,7 @@ var express = require("express");
 var mysql   = require("mysql");
 var bodyParser  = require("body-parser");
 var md5 = require('MD5');
-var rest = require("./REST.js");
+//var rest = require("./REST.js");
 var customer = require("./Customer.js");
 var driver = require("./Driver.js");
 var vehicle = require("./Vehicle.js");
@@ -42,7 +42,7 @@ REST.prototype.configureExpress = function(connection) {
       app.use(bodyParser.json());
       var router = express.Router();
       app.use('/pickme', router);
-      var rest_router = new rest(router,connection,md5);
+     // var rest_router = new rest(router,connection,md5);
       var customer_router = new customer(router, connection, md5);
       var driver_router = new driver(router, connection, md5);
       var vehicle_router = new vehicle(router, connection, md5);

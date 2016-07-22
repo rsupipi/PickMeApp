@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+    <ImageView
+        android:src="@drawable/login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:gravity="center_horizontal"
+        android:paddingBottom="30dp">
+        <ImageButton
+            android:src="@drawable/userlogactive_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButtonCustomerLogin"
+            android:background="@null" />
+        <ImageView
+            android:src="@drawable/or"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2" />
+        <ImageButton
+            android:src="@drawable/driverlog_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:background="@null" />
+    </LinearLayout>
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDriverUserName"
+        android:hint="Phone Number" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTexTDriverPw"
+        android:hint="Password"
+        android:paddingTop="15dp" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonLoginDriver"
+        android:background="#1A4B00"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+    <Button
+        android:text="Forgot Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDriverFP"
+        android:textAllCaps="false"
+        android:background="@null" />
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDriverRegister"
+        android:background="#BF9501"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+</LinearLayout>

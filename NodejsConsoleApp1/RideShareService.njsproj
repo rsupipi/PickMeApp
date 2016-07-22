@@ -358,7 +358,6 @@
     <Folder Include="node_modules\mysql\node_modules\require-all\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mytest.json" />
     <Content Include="node_modules\body-parser\HISTORY.md" />
     <Content Include="node_modules\body-parser\LICENSE" />
     <Content Include="node_modules\body-parser\node_modules\bytes\.npmignore" />

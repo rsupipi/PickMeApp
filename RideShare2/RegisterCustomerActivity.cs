@@ -58,16 +58,16 @@ namespace RideShare2
                 {
                     messageDialog.SetMessage("The account created successfully!");
                     messageDialog.SetNeutralButton("Ok", delegate {
-                        // Redirect to customer home page.
+                        var intent = new Intent(this, typeof(CustomerHomeActivity));
+                        List<string> userData = new List<string>();
+                        int phoneNu = customer.phone;
+                        userData.Add(phoneNu.ToString());
+                        intent.PutStringArrayListExtra("userData", userData);
+                        StartActivity(intent);
 
                     });
                     messageDialog.Show();
-                    var intent = new Intent(this, typeof(CustomerHomeActivity));
-                    List<string> userData = new List<string>();
-                    int phoneNu = customer.phone;
-                    userData.Add(phoneNu.ToString());
-                    intent.PutStringArrayListExtra("userData", userData);
-                    StartActivity(intent);
+                    
                 }
                 
             };
