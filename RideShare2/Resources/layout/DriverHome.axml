@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
-    <FrameLayout
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="469.5dp"
-        android:id="@+id/driverMap" />
-</LinearLayout>
+
+<linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_height="fill_parent"
+ android:layout_width="fill_parent"
+ android:orientation="vertical">
+    <autocompletetextview 
+     android:hint="Enter Location" 
+     android:id="@+id/txtTextSearch" 
+     android:imeactionid="@+id/imeisearch"
+     android:imeoptions="actionSearch" 
+     android:inputtype="text" 
+     android:layout_height="wrap_content" 
+     android:layout_marginleft="5dp" 
+     android:layout_marginright="5dp" 
+     android:layout_width="match_parent"/>
+    <fragment android:id="@+id/map"
+     android:layout_below="@+id/first" 
+     android:layout_height="match_parent" 
+     android:layout_width="match_parent" 
+     class="com.google.android.gms.maps.MapFragment"/>
+</linearlayout> 

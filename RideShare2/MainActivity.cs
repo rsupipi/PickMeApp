@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace RideShare2
 {
-    [Activity(Label = "Ride Share", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Ride Share", Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         
