@@ -1,4 +1,10 @@
 # PickMeApp
+
+Calculator
+============
+https://www.calculateme.com/Time/Days/ToMilliseconds.htm
+
+
 http://www.oracle.com/webfolder/technetwork/tutorials/obe/fmw/goldengate/12c/OGG12c_Creating_an_Oracle_Instance_for_OGG/index.html
 
 http://www.puzzles-world.com/
